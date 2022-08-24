@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+* {
+    margin-left: 15px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(/images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.intro-section {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+}
+
+
+/* logo */
+
+nav>img {
+    margin-top: 20px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    flex: 1;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: #5c1cff;
+}
+
+.signin-btn {
+    font-family: 'Montserrat';
+    padding: 3px 15px;
+    margin: 18px;
+    border-radius: 30px;
+    text-align: baseline;
+    color: aliceblue;
+    border: 0px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    background-color: #5c1cff;
+    background-image: linear-gradient(to right, #7745f6, #f590fe);
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    text-align: left;
+}
+
+.imgs-div {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+
+.imgs-div:last-child {
+    height: 90vh;
+    position: absolute;
+    left: 550px;
+}
+
+h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 380%;
+    color: #1c058d;
+}
+
+h4 {
+    font-family: 'Cairo', sans-serif;
+    font-size: smaller;
+}
+
+.learn-more-btn {
+    font-family: 'Montserrat';
+    padding: 10px;
+    border-radius: 35px;
+    color: aliceblue;
+    border: 0px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: larger;
+    background-image: linear-gradient(to right, #7745f6, #f590fe);
+    min-width: 120px;
+    max-width: 250px;
+    margin: 30px 0px 0px 0px;
+}
+
+.vector-dot {
+    position: absolute;
+    size: 10px;
+    margin-top: 500px;
+    margin-left: 130px;
+}
+
+.vector-img {
+    position: absolute;
+    size: 20px;
+    margin-top: 500px;
+    margin-left: 70px;
+}
+
+@media screen and (max-width:600px) {
+    .nav-items {
+        flex-direction: column;
+    }
+    h1 {
+        font-size: larger;
+        margin-top: 150px;
+    }
+}
