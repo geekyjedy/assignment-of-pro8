@@ -10,6 +10,7 @@ body {
     background-image: url(/images/backcover.svg);
     background-repeat: no-repeat;
     background-position: right;
+    overflow-x: hidden;
 }
 
 .intro-section {
